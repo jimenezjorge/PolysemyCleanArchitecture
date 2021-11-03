@@ -67,7 +67,7 @@ dependencies:
 # Swagger UI
 - servant-docs
 - servant-swagger
-- servant-swagger-ui
+# - servant-swagger-ui
 - servant-swagger-ui-core
 - swagger2
 - lens
