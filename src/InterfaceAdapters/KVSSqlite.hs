@@ -9,6 +9,7 @@ import qualified Data.Text.Lazy                 as T
 import           Data.Text.Lazy.Encoding
 import           Database.SQLite.Simple         (NamedParam ((:=)))
 import qualified Database.SQLite.Simple         as SQL
+                  (queryNamed, query_, executeNamed, open, execute_, Connection)
 import           Database.SQLite.Simple.FromRow
 import           Database.SQLite.Simple.ToRow
 import           InterfaceAdapters.Config

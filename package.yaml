@@ -63,6 +63,14 @@ dependencies:
 - sqlite-simple
 - acid-state
 - safecopy
+- postgresql-simple
+- selda
+- selda-postgresql
+- resource-pool
+- dhall
+- transformers
+- hashmap
+- time
 
 # Swagger UI
 - servant-docs
